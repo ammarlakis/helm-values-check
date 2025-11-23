@@ -16,3 +16,6 @@ fmt:
 
 tidy:
 	go mod tidy
+
+release version:
+	./scripts/release.sh {{version}}
